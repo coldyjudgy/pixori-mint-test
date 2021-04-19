@@ -1,0 +1,58 @@
+{
+  "name": "react-gh-pages",
+  "description": "This project was generated from the Mintbean react template using the mintbean-cli tool.",
+  "version": "0.1.0",
+  "homepage": "http://.",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.1",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "howler": "^2.2.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-color": "^2.19.3",
+    "react-component-export-image": "^1.0.5",
+    "react-dom": "^16.13.1",
+    "react-jss": "^10.6.0",
+    "react-modal": "^3.12.1",
+    "react-scripts": "^3.4.1",
+    "yarn": "^1.22.10"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwklly/pixoriestudy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwklly/pixoriestudy/issues"
+  }
+}

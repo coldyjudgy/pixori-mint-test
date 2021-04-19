@@ -1,0 +1,116 @@
+/* https://www.pngkey.com/png/full/237-2373068_linuxserver-beets-cartoon-beet-png.png */
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap');
+
+.App {
+  display: flex;
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  margin: 9rem 0;
+  padding: auto;
+  color: white;
+}
+.container {
+  padding: 20px;
+  margin: auto;
+  width: 80%;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: 'Cabin', sans-serif;
+  font-size: 20px;
+  color: white;
+
+}
+
+input {
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: fantasy;
+  padding-left: 10px;
+}
+
+.tableStyle {
+  text-align: center;
+  border-spacing: 3px;
+}
+
+td.instrument {
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  padding-right: 10px;
+  background-color: #bd1a7486;
+  border: 1px solid black;
+  border-radius: 5px;
+ 
+}
+
+.volTempo {
+  display: flex;
+  flex-direction: row;
+}
+.volStyle {
+  margin-right: 80px;
+}
+
+.tempoBorder {
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 5px;
+  opacity: 0.9;
+  width: 70px;
+  color: #151615;
+  border-color: #bd1a7486;
+}
+.temStyle {
+  color: #ffffff;
+  font-family: 'Cabin', sans-serif;
+  text-shadow: 2px 2px 5px gray;
+}
+.poStyle {
+  color: pink;
+  font-family: 'Cabin', sans-serif;
+  text-shadow: 2px 2px 5px gray;
+}
+.btnGroup {
+  display: flex;
+  flex-direction: row;
+}
+.tCell {
+  border-radius: 3px;
+  width: 5px;
+  height: 5px;
+}
+
+.volIcon {
+  color: #ffffff;
+}
+
+.titleImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1580px) {
+  .container {
+    width: 70%;
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .container {
+    width: 88%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .container {
+    width: 95%;
+  }
+}
+
