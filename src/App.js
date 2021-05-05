@@ -297,9 +297,6 @@ const App = () => {
   }
   
 
-
-
-
   //store playHeadComponent in a variable for readability
   const playHeadComponent = playHead();
 
