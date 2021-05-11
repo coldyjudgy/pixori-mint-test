@@ -7,6 +7,16 @@ import {AuthCluster} from './clusters/auth-cluster';
 import {RecoilRoot} from "recoil"
 import {CurrentUserSubscription} from "./hooks/current-user"
 
+import {MintCluster} from './clusters/mint-cluster'
+import {TransferCluster} from './clusters/transfer-cluster'
+import {useCurrentUser} from './hooks/current-user'
+
+function Transfer() {
+  const cu = useCurrentUser()
+  return (
+    <TransferCluster address={cu.addr} />
+  )
+}
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +24,9 @@ ReactDOM.render(
       <AuthCluster />
       <CurrentUserSubscription />
       <App />
+
+      <MintCluster />
+      <Transfer />
     </RecoilRoot>
   </React.StrictMode>,
   document.getElementById('root')
