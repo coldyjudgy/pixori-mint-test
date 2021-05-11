@@ -33,8 +33,6 @@ ReactDOM.render(
       <AuthCluster />
       <CurrentUserSubscription />
       <App />
-
-      <MintCluster />
       <Transfer />
       <Token />
     </RecoilRoot>
