@@ -21,6 +21,7 @@ import Colorbutton from "./colorbutton";
 import { Fragment } from 'react';
 
 import ColorPicker from './Components/ColorPicker.js';
+import {mint} from './clusters/mint-cluster'
 
 const arr1= Array.from(Array(16), () => new Array(32).fill(0));
 const offCell = {
@@ -354,7 +355,7 @@ const App = () => {
     <Button
     style={{ background: "ffffff", padding: '27px' }}
     
-    onClick={() =>{ handleClick();}}>Create
+    onClick={mint}>Mint
       </Button>
     </div>
 
