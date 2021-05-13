@@ -296,6 +296,8 @@ const App = () => {
   
 
   }
+
+  const colorArray = arr1.toString();
   
 
   //store playHeadComponent in a variable for readability
@@ -352,7 +354,7 @@ const App = () => {
       </table>
     
     <div>
-    <MintCluster array="test" />
+    <MintCluster array={colorArray} />
     </div>
 
     </div>
