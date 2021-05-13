@@ -116,7 +116,7 @@ async function mint() {
         {key: t.String, value: t.String},
         {key: t.String, value: t.String},
         {key: t.String, value: t.String},
-        {key: t.String, value: t.Array},
+        {key: t.String, value: t.String},
       ])
       )]      
     ),

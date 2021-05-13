@@ -352,7 +352,7 @@ const App = () => {
       </table>
     
     <div>
-    <MintCluster array={arr1} />
+    <MintCluster array="test" />
     </div>
 
     </div>
