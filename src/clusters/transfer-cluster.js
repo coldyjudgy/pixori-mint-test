@@ -87,8 +87,8 @@ async function transfer() {
               let collectionRef = acct.borrow<&Pixori.Collection>(from: /storage/NFTCollection)
                   ?? panic("Could not borrow a reference to the owner's collection")
       
-              self.transferToken <- collectionRef.withdraw(withdrawID: 31) // set "withdrawID" as a variable
-              self.getMetadataRef = collectionRef.getMetadata(id: 31) // set "id" as a variable
+              self.transferToken <- collectionRef.withdraw(withdrawID: 34) // set "withdrawID" as a variable
+              self.getMetadataRef = collectionRef.getMetadata(id: 34) // set "id" as a variable
           }
       
           execute {
