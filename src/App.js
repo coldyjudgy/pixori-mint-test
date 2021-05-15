@@ -298,12 +298,16 @@ const App = () => {
   }
 
   const colorArray = arr1.toString();
-  const nftName = "nameTest3";
+  var nftName = "initial value";
   
-  function Input()  {
-    return (
-      <input type="text" id="input"></input>
-      )
+  function setNftName() {
+    nftName = document.getElementById("input").value
+    console.log(nftName)
+
+  }
+
+  function check() {
+    console.log(nftName)
   }
 
   //store playHeadComponent in a variable for readability
@@ -360,7 +364,15 @@ const App = () => {
       </table>
       </div>
     <div className={classes.mint}>
-    Name of NFT: <Input /> </div>
+    Name of NFT:     
+    <div>
+      <input type="text" id="input"></input>
+      <button onClick={setNftName}>set Name</button>
+      <button onClick={check}>check</button>
+    </div>
+  
+    
+    </div>
     <div className={classes.mint}>
     <MintCluster name={nftName} array={colorArray} />
     </div>
