@@ -45,7 +45,7 @@ export function TokenCluster({address}) {
             {Object.keys(nftInfo).map(k => {
               return (
                 <p>
-                  NFT #{k} > Name: {nftInfo[k].name} / Date: {nftInfo[k].date} / Time: {nftInfo[k].time} / Color: {nftInfo[k].color}
+                  NFT #{k} > Name: {nftInfo[k].name} / Color: {nftInfo[k].color}
                 </p>
               )
             })

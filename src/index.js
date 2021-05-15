@@ -27,10 +27,13 @@ function Token() {
   )
 }
 
+
+
 ReactDOM.render(
   <React.StrictMode>
     <RecoilRoot>
       <AuthCluster />
+    
       <CurrentUserSubscription />
       <App />
       <Transfer />

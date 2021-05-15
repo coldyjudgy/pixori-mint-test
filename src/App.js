@@ -298,7 +298,13 @@ const App = () => {
   }
 
   const colorArray = arr1.toString();
+  const nftName = "nameTest3";
   
+  function Input()  {
+    return (
+      <input type="text" id="input"></input>
+      )
+  }
 
   //store playHeadComponent in a variable for readability
   const playHeadComponent = playHead();
@@ -352,12 +358,14 @@ const App = () => {
          
         </tbody>
       </table>
-    
-    <div>
-    <MintCluster array={colorArray} />
+      </div>
+    <div className={classes.mint}>
+    Name of NFT: <Input /> </div>
+    <div className={classes.mint}>
+    <MintCluster name={nftName} array={colorArray} />
     </div>
 
-    </div>
+    
     </Fragment>
   );
 

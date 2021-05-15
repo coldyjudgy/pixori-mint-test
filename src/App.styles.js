@@ -27,4 +27,7 @@ export default createUseStyles({
     fontFamily: 'monospace',
     wordWrap: 'break-word',
   },
+  mint: {
+    float: 'left',
+  }
 });
