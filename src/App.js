@@ -298,12 +298,12 @@ const App = () => {
   }
 
   const colorArray = arr1.toString();
-  var nftName = "initial value";
-  
-  function setNftName() {
-    nftName = document.getElementById("input").value
-    console.log(nftName)
+  //var nftName = "initial value";
+  const [nftName, setNftName] = useState("initial value")
 
+  function set() {
+    setNftName(document.getElementById("input").value)
+    console.log(nftName)
   }
 
   function check() {
@@ -367,7 +367,7 @@ const App = () => {
     Name of NFT:     
     <div>
       <input type="text" id="input"></input>
-      <button onClick={setNftName}>set Name</button>
+      <button onClick={set}>set Name</button>
       <button onClick={check}>check</button>
     </div>
   
