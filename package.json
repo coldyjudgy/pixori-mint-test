@@ -13,7 +13,7 @@
   "dependencies": {
     "@material-ui/core": "^4.11.1",
     "@material-ui/icons": "^4.9.1",
-    "@onflow/fcl": "0.0.69",
+    "@onflow/fcl": "^0.0.70",
     "@onflow/types": "0.0.4",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -58,5 +58,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kwklly/pixoriestudy/issues"
+  },
+  "devDependencies": {
+    "web-vitals": "^1.1.2"
   }
 }
